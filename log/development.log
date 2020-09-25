@@ -4394,3 +4394,2300 @@ Processing by TodoListsController#index as HTML
 Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.5ms | Allocations: 5371)
 
 
+Started GET "/" for ::1 at 2020-09-25 21:04:01 +0200
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (5.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 78.8ms | Allocations: 6754)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3624ms (Views: 3548.6ms | ActiveRecord: 43.0ms | Allocations: 45339)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:04:20 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1322)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.5ms | Allocations: 5425)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:10:50 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.0ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1835)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 2.0ms | Allocations: 6888)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:17:45 +0200
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 36.0ms | Allocations: 6754)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2979ms (Views: 2958.6ms | ActiveRecord: 9.1ms | Allocations: 46592)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:17:53 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1322)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.7ms | Allocations: 5455)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:17:53 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1311)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 5406)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:22:01 +0200
+  [1m[35m (4.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.0ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 53.3ms | Allocations: 6754)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/Macbook/Documents/todonew/public/packs
+[Webpacker] Hash: b7f1fc774f6501e951eb
+Version: webpack 4.44.2
+Time: 2795ms
+Built at: 09/25/2020 9:22:11 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-8268bc3b44e3e019ae2b.js    124 KiB  application  [emitted] [immutable]  application
+js/application-8268bc3b44e3e019ae2b.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-8268bc3b44e3e019ae2b.js js/application-8268bc3b44e3e019ae2b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 820 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 9698ms (Views: 9663.4ms | ActiveRecord: 20.2ms | Allocations: 107877)
+
+
+Started GET "/todo_lists/17" for ::1 at 2020-09-25 21:23:06 +0200
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTodoList Load (0.3ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = $1 ORDER BY "todo_lists"."prioritet" DESC LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/todo_lists_controller.rb:68:in `set_todo_list'
+Completed 404 Not Found in 19ms (ActiveRecord: 0.6ms | Allocations: 3861)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find TodoList with 'id'=17):
+  
+app/controllers/todo_lists_controller.rb:68:in `set_todo_list'
+Started GET "/" for ::1 at 2020-09-25 21:23:13 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.2ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 1338)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 106ms (Views: 101.5ms | ActiveRecord: 2.2ms | Allocations: 8073)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:23:24 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 193ms (Views: 189.3ms | ActiveRecord: 2.9ms | Allocations: 7972)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:24:11 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1680)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.4ms | Allocations: 9357)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:13 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.9ms | Allocations: 8014)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:14 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1311)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.4ms | Allocations: 8016)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:15 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 1.8ms | Allocations: 8014)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:16 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 0.8ms | Allocations: 8009)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:17 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.5ms | Allocations: 8083)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:18 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (13.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1302)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 21.0ms | ActiveRecord: 13.8ms | Allocations: 8094)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:18 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.6ms | Allocations: 8010)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:18 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.5ms | Allocations: 8010)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 21:24:21 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (2.0ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1196)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 15.4ms | ActiveRecord: 4.2ms | Allocations: 8683)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:24:22 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 26.9ms | Allocations: 1312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.8ms | Allocations: 8025)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:25:48 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1671)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.4ms | Allocations: 9319)
+
+
+Started GET "/uradjenos" for ::1 at 2020-09-25 21:25:49 +0200
+Processing by UradjenosController#index as HTML
+  Rendering uradjenos/index.html.erb within layouts/application
+  [1m[36mUradjeno Load (1.1ms)[0m  [1m[34mSELECT "uradjenos".* FROM "uradjenos"[0m
+  ↳ app/views/uradjenos/index.html.erb:15
+  Rendered uradjenos/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 15.0ms | ActiveRecord: 2.9ms | Allocations: 8704)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 21:25:50 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.3ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 986)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.3ms | Allocations: 8310)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:25:52 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1313)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 25.6ms | ActiveRecord: 2.5ms | Allocations: 8014)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:26:12 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1671)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.4ms | Allocations: 9318)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 21:26:16 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.6ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 987)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.3ms | ActiveRecord: 0.6ms | Allocations: 8213)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:26:17 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 29.0ms | ActiveRecord: 0.7ms | Allocations: 8019)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:26:30 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 32.6ms | Allocations: 8703)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 35.1ms | Allocations: 9067)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms | Allocations: 15885)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:28:53 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1676)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.4ms | Allocations: 9408)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 21:28:56 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.4ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 986)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 0.4ms | Allocations: 8305)
+
+
+Started GET "/uradjenos" for ::1 at 2020-09-25 21:28:57 +0200
+Processing by UradjenosController#index as HTML
+  Rendering uradjenos/index.html.erb within layouts/application
+  [1m[36mUradjeno Load (0.3ms)[0m  [1m[34mSELECT "uradjenos".* FROM "uradjenos"[0m
+  ↳ app/views/uradjenos/index.html.erb:15
+  Rendered uradjenos/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 985)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 14.8ms | ActiveRecord: 0.3ms | Allocations: 8231)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 21:28:57 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (1.2ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 18.0ms | Allocations: 729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 35.0ms | ActiveRecord: 1.2ms | Allocations: 7411)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:28:58 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 1312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 32.3ms | ActiveRecord: 0.9ms | Allocations: 8017)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:30:47 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1672)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.8ms | Allocations: 9333)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:30:50 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 11.5ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 4513)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:30:50 +0200
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 12589)
+
+
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.4ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 3780)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 10608)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:31:28 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1832)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.8ms | ActiveRecord: 1.5ms | Allocations: 9553)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:31:35 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1671)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 9315)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:31:36 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 4.5ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 4513)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:31:36 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.3ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3791)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 19049)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 13298)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:31:56 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1673)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.4ms | Allocations: 9422)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:32:12 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.4ms | Allocations: 9294)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:32:29 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1561)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.8ms | ActiveRecord: 0.7ms | Allocations: 9292)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:32:33 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.4ms | Allocations: 7944)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:34 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:34 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 11.3ms | Allocations: 3698)
+  Rendered todo_lists/_form.html.erb (Duration: 12.9ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 11.7ms | Allocations: 3781)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 37.3ms | Allocations: 10058)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms | Allocations: 12119)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91ms (Views: 89.1ms | ActiveRecord: 0.0ms | Allocations: 23519)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 21:32:36 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.3ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 986)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.3ms | Allocations: 8303)
+
+
+Started GET "/uradjenos" for ::1 at 2020-09-25 21:32:37 +0200
+Processing by UradjenosController#index as HTML
+  Rendering uradjenos/index.html.erb within layouts/application
+  [1m[36mUradjeno Load (0.4ms)[0m  [1m[34mSELECT "uradjenos".* FROM "uradjenos"[0m
+  ↳ app/views/uradjenos/index.html.erb:15
+  Rendered uradjenos/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 990)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.4ms | Allocations: 8307)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 21:32:38 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.3ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.3ms | Allocations: 7486)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:32:40 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.5ms | Allocations: 7951)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:41 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.3ms | Allocations: 3701)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3783)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:41 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 12.7ms | Allocations: 4279)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:41 +0200
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 15.2ms | Allocations: 5056)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:41 +0200
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms | Allocations: 21539)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:41 +0200
+[Webpacker] Everything's up-to-date. Nothing to do
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 5.3ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 3780)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.0ms | Allocations: 26522)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:32:41 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 10.8ms | Allocations: 3698)
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 12.3ms | Allocations: 4104)
+  Rendered todo_lists/_form.html.erb (Duration: 12.4ms | Allocations: 3785)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 17.4ms | Allocations: 4087)
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.3ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3809)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 120ms (Views: 118.7ms | ActiveRecord: 0.0ms | Allocations: 29293)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 171ms (Views: 169.3ms | ActiveRecord: 0.0ms | Allocations: 21884)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 290ms (Views: 288.7ms | ActiveRecord: 0.0ms | Allocations: 48566)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 263ms (Views: 261.7ms | ActiveRecord: 0.0ms | Allocations: 35784)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:42:55 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 1394)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 92ms (Views: 79.4ms | ActiveRecord: 2.9ms | Allocations: 8145)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:57 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 16.0ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 18.3ms | Allocations: 3809)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:57 +0200
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:57 +0200
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:57 +0200
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms | Allocations: 13832)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:57 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/_form.html.erb (Duration: 7.1ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 4469)
+  Rendering todo_lists/new.html.erb within layouts/application
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:57 +0200
+  Rendered todo_lists/_form.html.erb (Duration: 10.9ms | Allocations: 3698)
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 37.2ms | Allocations: 5829)
+  Rendering todo_lists/new.html.erb within layouts/application
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/_form.html.erb (Duration: 8.5ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 11.0ms | Allocations: 4348)
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.0ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 3904)
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.6ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3919)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 150ms (Views: 148.3ms | ActiveRecord: 0.0ms | Allocations: 33676)
+
+
+Completed 200 OK in 224ms (Views: 222.6ms | ActiveRecord: 0.0ms | Allocations: 49421)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:58 +0200
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:58 +0200
+Processing by TodoListsController#new as HTML
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.5ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3827)
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.8ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3843)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 331ms (Views: 329.6ms | ActiveRecord: 0.0ms | Allocations: 66045)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:58 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.6ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3905)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 301ms (Views: 300.1ms | ActiveRecord: 0.0ms | Allocations: 62091)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 295ms (Views: 293.5ms | ActiveRecord: 0.0ms | Allocations: 52243)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 158ms (Views: 157.3ms | ActiveRecord: 0.0ms | Allocations: 36093)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 94.6ms | ActiveRecord: 0.0ms | Allocations: 18103)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 175ms (Views: 170.8ms | ActiveRecord: 0.0ms | Allocations: 42082)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:42:58 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 5.1ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3780)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 10574)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:43:00 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.0ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 1.0ms | Allocations: 7955)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:46:23 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1565)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.6ms | Allocations: 9234)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:46:36 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.8ms | Allocations: 9257)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:47:16 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.4ms | Allocations: 9302)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:47:28 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1559)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.4ms | Allocations: 9272)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:48:03 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:52
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.4ms | Allocations: 9280)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:49:11 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:76
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1588)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.5ms | Allocations: 9332)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:49:30 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1561)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.4ms | Allocations: 9296)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:49:32 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.6ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 4513)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:49:32 +0200
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 12361)
+
+
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 16.8ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 17.3ms | Allocations: 3780)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 10555)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:49:34 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1398)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 1.8ms | Allocations: 8110)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:49:36 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 8.4ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3804)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:49:36 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 4.5ms | Allocations: 3698)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 21:49:36 +0200
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 3864)
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.1ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3789)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms | Allocations: 31221)
+
+
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms | Allocations: 24651)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms | Allocations: 12827)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:50:29 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1720)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 2.4ms | Allocations: 9389)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:50:29 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.4ms | Allocations: 7956)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:50:55 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:48
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.5ms | Allocations: 9299)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:50:56 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:48
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.4ms | Allocations: 8005)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:51:02 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:48
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1557)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms | Allocations: 9264)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:51:18 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1559)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.5ms | Allocations: 9262)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 21:51:58 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1561)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.5ms | Allocations: 9288)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:52:13 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 1.4ms | Allocations: 8036)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:52:22 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1559)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.4ms | Allocations: 9271)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:52:35 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1558)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.5ms | Allocations: 9269)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:54:03 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1559)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.4ms | Allocations: 9296)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:54:47 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.9ms | Allocations: 9290)
+
+
+Started GET "/" for ::1 at 2020-09-25 21:58:15 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.4ms | Allocations: 7956)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:01:34 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 1711)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 87ms (Views: 77.5ms | ActiveRecord: 0.9ms | Allocations: 9444)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:03:07 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.9ms | Allocations: 7919)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:05:05 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1781)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.9ms | Allocations: 9511)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:08:33 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (8.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 1251)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 34.5ms | ActiveRecord: 8.7ms | Allocations: 7916)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:08:39 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.1ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1243)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 41.7ms | ActiveRecord: 1.1ms | Allocations: 7952)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:08:57 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:123
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1051)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 81.4ms | ActiveRecord: 0.9ms | Allocations: 8699)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:09:14 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:123
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 713)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 7417)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:16:19 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 1722)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 53.2ms | ActiveRecord: 2.4ms | Allocations: 9388)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 22:16:22 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 11.0ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 14.0ms | Allocations: 4513)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 22:16:22 +0200
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.0ms | Allocations: 12854)
+
+
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.2ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3780)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 10593)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 22:18:43 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (1.4ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 1.4ms | Allocations: 8269)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:18:46 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1353)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 1.6ms | Allocations: 8048)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 22:18:49 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.5ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 720)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.5ms | Allocations: 7460)
+
+
+Started GET "/uradjenos" for ::1 at 2020-09-25 22:18:49 +0200
+Processing by UradjenosController#index as HTML
+  Rendering uradjenos/index.html.erb within layouts/application
+  [1m[36mUradjeno Load (0.6ms)[0m  [1m[34mSELECT "uradjenos".* FROM "uradjenos"[0m
+  ↳ app/views/uradjenos/index.html.erb:15
+  Rendered uradjenos/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 986)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.6ms | Allocations: 8232)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 22:18:50 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.4ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.4ms | Allocations: 7399)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:18:51 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (6.3ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 27.6ms | ActiveRecord: 6.3ms | Allocations: 8020)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 22:18:53 +0200
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 22:18:53 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 5.1ms | Allocations: 3701)
+Processing by TodoListsController#new as HTML
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 4445)
+  Rendering todo_lists/new.html.erb within layouts/application
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 22:18:53 +0200
+  Rendered todo_lists/_form.html.erb (Duration: 6.6ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 3807)
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.1ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3818)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms | Allocations: 29082)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms | Allocations: 25867)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 12904)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:18:58 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1394)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 1.9ms | Allocations: 8105)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:36:16 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1394)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 58.4ms | ActiveRecord: 1.6ms | Allocations: 8091)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 22:36:17 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.6ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 720)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.6ms | Allocations: 7426)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:39:28 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1564)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 0.9ms | Allocations: 9313)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:40:34 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1559)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.4ms | Allocations: 9218)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:41:18 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.6ms | Allocations: 9298)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:42:11 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.7ms | Allocations: 9300)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:43:15 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.5ms | Allocations: 9299)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:43:16 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.6ms | Allocations: 7954)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:43:20 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.1ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 88ms (Views: 84.4ms | ActiveRecord: 1.1ms | Allocations: 9296)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:43:26 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.6ms | Allocations: 8032)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:43:56 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.4ms | Allocations: 7933)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:44:05 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.9ms | Allocations: 7996)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:44:06 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.7ms | Allocations: 7989)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:44:57 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1595)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.4ms | Allocations: 9333)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:45:09 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1559)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.4ms | Allocations: 9290)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:45:32 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1564)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.6ms | Allocations: 9298)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:45:46 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1561)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.6ms | Allocations: 9284)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:46:18 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.9ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1565)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.9ms | Allocations: 9295)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:46:34 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1565)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 45.6ms | ActiveRecord: 0.4ms | Allocations: 9293)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:46:55 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1564)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 53.7ms | ActiveRecord: 0.6ms | Allocations: 9304)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:49:00 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.4ms | Allocations: 7952)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 22:49:05 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 8.5ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 10.4ms | Allocations: 4513)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 11491)
+
+
+Started GET "/" for ::1 at 2020-09-25 22:53:50 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1242)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.7ms | Allocations: 7860)
+
+
+Started GET "/uradjenos" for ::1 at 2020-09-25 22:56:00 +0200
+Processing by UradjenosController#index as HTML
+  Rendering uradjenos/index.html.erb within layouts/application
+  [1m[36mUradjeno Load (1.5ms)[0m  [1m[34mSELECT "uradjenos".* FROM "uradjenos"[0m
+  ↳ app/views/uradjenos/index.html.erb:15
+  Rendered uradjenos/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 986)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 1.5ms | Allocations: 8149)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 22:56:02 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (0.5ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 989)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.5ms | Allocations: 8135)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:56:02 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms | Allocations: 7968)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 22:56:08 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 4.8ms | Allocations: 3701)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 3783)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 10429)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:56:11 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.6ms | Allocations: 7951)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:59:05 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.4ms | Allocations: 9148)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:59:21 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1566)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 9239)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 22:59:44 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1559)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.4ms | Allocations: 9210)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:00:00 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1671)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.4ms | Allocations: 9326)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:00:16 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.6ms | Allocations: 9212)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:03:18 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.0ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1592)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 1.0ms | Allocations: 9256)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:03:47 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1594)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.6ms | Allocations: 9245)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:04:43 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1746)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.5ms | Allocations: 9406)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:05:19 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1731)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.5ms | Allocations: 9387)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:05:30 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.4ms | Allocations: 9362)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:05:49 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1733)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.5ms | Allocations: 9391)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:05:59 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1728)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.4ms | Allocations: 9310)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:06:17 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.4ms | Allocations: 9853)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:06:34 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2213)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.4ms | Allocations: 9877)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:06:35 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1707)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.4ms | Allocations: 8429)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:07:10 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1737)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.4ms | Allocations: 9331)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:08:05 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2219)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.4ms | Allocations: 9891)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:08:29 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2214)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.4ms | Allocations: 9885)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:08:53 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 2214)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 50.4ms | ActiveRecord: 0.5ms | Allocations: 9792)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:09:34 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2219)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.4ms | Allocations: 9883)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:09:56 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2216)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.4ms | Allocations: 9870)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:10:05 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2217)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.4ms | Allocations: 9790)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:10:16 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.4ms | Allocations: 9857)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:10:28 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2217)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.5ms | Allocations: 9812)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:10:59 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:51
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2220)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.8ms | Allocations: 9881)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:11:13 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1570)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.4ms | Allocations: 9238)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:11:42 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:42
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1555)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.4ms | Allocations: 9206)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:11:44 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:42
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 19.7ms | ActiveRecord: 0.7ms | Allocations: 7880)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 23:11:46 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (1.1ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 987)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 18.7ms | ActiveRecord: 1.1ms | Allocations: 8211)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:11:48 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:42
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 22.3ms | ActiveRecord: 1.8ms | Allocations: 7861)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:11:57 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1575)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.4ms | Allocations: 9229)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 23:11:58 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 7.5ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 4513)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 11416)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:12:09 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:54
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1567)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 9209)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:12:23 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:53
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1540)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.5ms | Allocations: 9171)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:12:32 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.4ms | Allocations: 9134)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 23:12:51 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 13.8ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 15.5ms | Allocations: 4528)
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 23:12:51 +0200
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 12850)
+
+
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.5ms | Allocations: 3698)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 3780)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 10519)
+
+
+Started GET "/radi_ses" for ::1 at 2020-09-25 23:12:52 +0200
+Processing by RadiSesController#index as HTML
+  Rendering radi_ses/index.html.erb within layouts/application
+  [1m[36mRadiSe Load (3.0ms)[0m  [1m[34mSELECT "radi_ses".* FROM "radi_ses"[0m
+  ↳ app/views/radi_ses/index.html.erb:16
+  Rendered radi_ses/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1040)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 18.8ms | ActiveRecord: 3.0ms | Allocations: 8282)
+
+
+Started GET "/uradjenos" for ::1 at 2020-09-25 23:12:53 +0200
+Processing by UradjenosController#index as HTML
+  Rendering uradjenos/index.html.erb within layouts/application
+  [1m[36mUradjeno Load (2.6ms)[0m  [1m[34mSELECT "uradjenos".* FROM "uradjenos"[0m
+  ↳ app/views/uradjenos/index.html.erb:15
+  Rendered uradjenos/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 985)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 16.8ms | ActiveRecord: 2.6ms | Allocations: 8139)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:12:53 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (2.0ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 14.3ms | Allocations: 1353)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 2.0ms | Allocations: 8056)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:16:03 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.6ms | Allocations: 9254)
+
+
+Started GET "/style.css" for ::1 at 2020-09-25 23:16:03 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-25 23:16:32 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.1ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1561)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 1.1ms | Allocations: 9261)
+
+
+Started GET "/style.css" for ::1 at 2020-09-25 23:16:32 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-25 23:17:09 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.7ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1561)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.7ms | Allocations: 9222)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:17:21 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.4ms | Allocations: 9218)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:19:29 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.4ms | Allocations: 9119)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:20:33 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1565)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 9150)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:20:44 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.6ms | Allocations: 9154)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:23:33 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 46.6ms | ActiveRecord: 1.4ms | Allocations: 7870)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:24:06 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.4ms | Allocations: 9220)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:24:24 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.5ms | Allocations: 9151)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:24:32 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.6ms | Allocations: 9162)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:24:54 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1567)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.5ms | Allocations: 9130)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:25:00 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:50
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.5ms | Allocations: 9135)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:25:09 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1570)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 9135)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:25:53 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1571)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 36.6ms | ActiveRecord: 0.8ms | Allocations: 9219)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:26:07 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1573)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.4ms | Allocations: 9238)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:26:35 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1571)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.4ms | Allocations: 9150)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:29:07 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1570)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.4ms | Allocations: 9137)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:29:28 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1569)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.4ms | Allocations: 9184)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:29:39 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1571)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 25.8ms | ActiveRecord: 0.5ms | Allocations: 9240)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:29:57 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1575)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.4ms | Allocations: 9235)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:30:14 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1571)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.4ms | Allocations: 9144)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 23:30:22 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 6.8ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 4513)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 11344)
+
+
+Started GET "/uradjenos" for ::1 at 2020-09-25 23:30:30 +0200
+Processing by UradjenosController#index as HTML
+  Rendering uradjenos/index.html.erb within layouts/application
+  [1m[36mUradjeno Load (1.1ms)[0m  [1m[34mSELECT "uradjenos".* FROM "uradjenos"[0m
+  ↳ app/views/uradjenos/index.html.erb:15
+  Rendered uradjenos/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 986)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 27.4ms | ActiveRecord: 1.1ms | Allocations: 8151)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:30:32 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.8ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.8ms | Allocations: 7922)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:34:03 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1606)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 21378c07bbbde883652d
+Version: webpack 4.44.2
+Time: 961ms
+Built at: 09/25/2020 11:34:06 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-90105b9a59d87c08add2.js   7.78 KiB  application  [emitted] [immutable]  application
+js/application-90105b9a59d87c08add2.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-90105b9a59d87c08add2.js js/application-90105b9a59d87c08add2.js.map
+[./app/javascript/packs/application.js] 3.88 KiB {application} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/Macbook/Documents/todonew/app/javascript/packs/application.js: Unterminated string constant (32:20)
+
+  30 | 
+  31 | if (item) {
+> 32 | todoListItem.append("<li>
+     |                     ^
+  33 |     <div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox' />" + item + "<i class='input-helper'></i></label></div><i class='remove mdi mdi-close-circle-outline'></i>
+  34 | </li>");
+  35 | todoListInput.val("");
+    at Parser._raise (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:766:17)
+    at Parser.raiseWithData (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:759:17)
+    at Parser.raise (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:753:17)
+    at Parser.readString (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:8595:20)
+    at Parser.getTokenFromCode (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:8235:14)
+    at Parser.nextToken (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:7762:12)
+    at Parser.next (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:7687:10)
+    at Parser.parseCoverCallAndAsyncArrowHead (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9949:10)
+    at Parser.parseSubscript (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9896:19)
+    at Parser.parseSubscripts (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9867:19)
+    at Parser.parseExprSubscripts (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9850:17)
+    at Parser.parseUpdate (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9824:21)
+    at Parser.parseMaybeUnary (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9813:17)
+    at Parser.parseExprOps (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9683:23)
+    at Parser.parseMaybeConditional (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9657:23)
+    at Parser.parseMaybeAssign (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9620:21)
+    at Parser.parseExpressionBase (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9564:23)
+    at /Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9558:39
+    at Parser.allowInAnd (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11297:16)
+    at Parser.parseExpression (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:9558:17)
+    at Parser.parseStatementContent (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11562:23)
+    at Parser.parseStatement (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11431:17)
+    at Parser.parseBlockOrModuleBlockBody (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:12013:25)
+    at Parser.parseBlockBody (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11999:10)
+    at Parser.parseBlock (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11983:10)
+    at Parser.parseStatementContent (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11507:21)
+    at Parser.parseStatement (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11431:17)
+    at Parser.parseIfStatement (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11785:28)
+    at Parser.parseStatementContent (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11476:21)
+    at Parser.parseStatement (/Users/Macbook/Documents/todonew/node_modules/@babel/parser/lib/index.js:11431:17)
+
+Completed 200 OK in 3653ms (Views: 3651.1ms | ActiveRecord: 0.5ms | Allocations: 10334)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:36:41 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1662)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.4ms | Allocations: 9324)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:37:48 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1730)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.5ms | Allocations: 9297)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:38:33 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1692)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.4ms | Allocations: 9306)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 23:38:58 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 10.0ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 12.1ms | Allocations: 4514)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 11430)
+
+
+Started POST "/todo_lists" for ::1 at 2020-09-25 23:39:04 +0200
+Processing by TodoListsController#create as HTML
+  Parameters: {"authenticity_token"=>"k8ctzWGZrg55a9mm1W1UuAkZX2S8u3jgxkIdiwTN+vmTK0oGtCNo6tkSHHBCo8a2O28wkFcE0kx9uGE1BJAakA==", "todo_list"=>{"task_title"=>"wqsqq", "task_description"=>"sqwq", "task_time(1i)"=>"2020", "task_time(2i)"=>"9", "task_time(3i)"=>"25", "task_time(4i)"=>"21", "task_time(5i)"=>"38", "difficulty_level"=>"qsq", "prioritet"=>"qsqs", "radi_se"=>"0"}, "commit"=>"Create Todo list"}
+[31mUnpermitted parameter: :radi_se[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todo_lists_controller.rb:31:in `block in create'
+  [1m[36mTodoList Create (2.8ms)[0m  [1m[32mINSERT INTO "todo_lists" ("task_title", "task_description", "task_time", "difficulty_level", "created_at", "updated_at", "prioritet") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["task_title", "wqsqq"], ["task_description", "sqwq"], ["task_time", "2020-09-25 21:38:00"], ["difficulty_level", "<3 bytes of binary data>"], ["created_at", "2020-09-25 21:39:04.169330"], ["updated_at", "2020-09-25 21:39:04.169330"], ["prioritet", "qsqs"]]
+  ↳ app/controllers/todo_lists_controller.rb:31:in `block in create'
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todo_lists_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/todo_lists/32
+Completed 302 Found in 14ms (ActiveRecord: 4.1ms | Allocations: 3368)
+
+
+Started GET "/todo_lists/32" for ::1 at 2020-09-25 23:39:04 +0200
+Processing by TodoListsController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" WHERE "todo_lists"."id" = $1 ORDER BY "todo_lists"."prioritet" DESC LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/todo_lists_controller.rb:68:in `set_todo_list'
+  Rendering todo_lists/show.html.erb within layouts/application
+  Rendered todo_lists/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 352)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.2ms | ActiveRecord: 0.6ms | Allocations: 7931)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:39:05 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1408)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.6ms | Allocations: 8141)
+
+
+Started GET "/todo_lists" for ::1 at 2020-09-25 23:39:39 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1716)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.6ms | Allocations: 9298)
+
+
+Started GET "/" for ::1 at 2020-09-25 23:40:56 +0200
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (1.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists" ORDER BY "todo_lists"."prioritet" DESC[0m
+  ↳ app/views/todo_lists/index.html.erb:57
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 1392)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 93ms (Views: 73.2ms | ActiveRecord: 1.4ms | Allocations: 8018)
+
+
+Started GET "/todo_lists/new" for ::1 at 2020-09-25 23:41:07 +0200
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 11.1ms | Allocations: 4152)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 14.5ms | Allocations: 4514)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 57.6ms | ActiveRecord: 0.0ms | Allocations: 11396)
+
+

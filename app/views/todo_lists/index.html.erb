@@ -1,9 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Todo Lists</h1>
-			<button><%= link_to "to do", todo_lists_path %></button>
-			<button><%= link_to "radi se", radi_ses_path %></button>
-			<button><%= link_to "uradjeno", uradjenos_path %></button>
+
 <table>
   <thead>
     <tr>
@@ -22,7 +19,7 @@
 		<body>
 		<div class="bs-example">
 		    <!-- Button HTML (to Trigger Modal) -->
-		    <a href="/todo_lists/new" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">DODAJ TASK</a>
+		    
     
 		    <!-- Modal HTML -->
 		    <div id="myModal" class="modal fade">
@@ -39,33 +36,44 @@
 
 
 	
-		<table class="table table-dark table-hover">
-		    <thead>
-		      <tr>
-			      <th>Naziv zadatka</th>
-			      <th>Opis zadatka</th>
-			      <th>Vrijeme za zadatak</th>
-			      <th>Tezina</th>
-			      <th>Prioritet</th>
-			      <th>Radi se</th>
-		      </tr>
-		    </thead>
-		    <tbody>
-			    <% @todo_lists.each do |todo_list| %>
-			      <tr>
-			        <td><%= todo_list.task_title %></td>
-			        <td><%= todo_list.task_description %></td>
-			        <td><%= todo_list.task_time %></td>
-			        <td><%= todo_list.difficulty_level %></td>
-			        <td><%= todo_list.prioritet %></td>
-			        <td><%= todo_list.radi_se %></td>
+	
+<div class="container">
+  <table class="table table-hover" style="background-color:#b2bec3">
+    <thead>
+      <tr>
+	      <th>Naziv zadatka</th>
+	      <th>Opis zadatka</th>
+	      <th>Vrijeme za zadatak</th>
+	      <th>Tezina</th>
+	      <th>Prioritet</th>
+	      <th>Radi se</th>
+	      <th></th>
+	      <th></th>
+	      <th></th>
 				
-							<td><%= link_to 'Show', todo_list %></td>
-			        <td><%= link_to 'Edit', edit_todo_list_path(todo_list) %></td>
-			        <td><%= link_to 'Destroy', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-			      </tr>
-			    <% end %>
-		    </tbody>
-		  </table>
+      </tr>
+    </thead>
+    <tbody>
+	    <% @todo_lists.each do |todo_list| %>
+			
+      <tr>
+        <td><%= todo_list.task_title %></td>
+        <td><%= todo_list.task_description %></td>
+        <td><%= todo_list.task_time %></td>
+        <td><%= todo_list.difficulty_level %></td>
+        <td><%= todo_list.prioritet %></td>
+        <td><%= todo_list.radi_se %></td>
+				<td><%= link_to 'Show', todo_list %></td>
+        <td><%= link_to 'Edit', edit_todo_list_path(todo_list) %></td>
+        <td><%= link_to 'Destroy', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+			
+			</tr>
+				<%end%>
+				
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
 
 

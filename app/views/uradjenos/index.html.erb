@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Uradjeno</h1>
+			<button><%= link_to "to do", todo_lists_path %></button>
+			<button><%= link_to "radi se", radi_ses_path %></button>
+			<button><%= link_to "uradjeno", uradjenos_path %></button>
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @uradjenos.each do |uradjeno| %>
+      <tr>
+        <td><%= link_to 'Show', uradjeno %></td>
+        <td><%= link_to 'Edit', edit_uradjeno_path(uradjeno) %></td>
+        <td><%= link_to 'Destroy', uradjeno, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Uradjeno', new_uradjeno_path %>

@@ -1,0 +1,2 @@
+class Uradjeno < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class RadiSe < ApplicationRecord
+end

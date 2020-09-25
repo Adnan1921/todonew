@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+<table>
+<p>
+  <strong>Naziv zadatka:</strong>
+  <%= @todo_list.task_title %>
+</p>
+
+<p>
+  <strong>Opis zadatka:</strong>
+  <%= @todo_list.task_description %>
+</p>
+
+<p>
+  <strong>vrijeme za zadatak:</strong>
+  <%= @todo_list.task_time %>
+</p>
+
+<p>
+  <strong>Tezina:</strong>
+  <%= @todo_list.difficulty_level %>
+</p>
+<p>
+  <strong>Prioritet:</strong>
+  <%= @todo_list.prioritet %>
+</p>
+<p>
+  <strong>Radi se:</strong>
+  <%= @todo_list.radi_se %>
+</p>
+
+</table>
+<%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
+<%= link_to 'Back', todo_lists_path %>
